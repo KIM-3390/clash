@@ -1,54 +1,35 @@
 proxies:
-- name: 🇬🇧GB - udptoos.com
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US - udptoos.com
+  name: 🇨🇦CA - udptoos.com
   network: ws
   port: '443'
-  server: 154.64.236.54
-  servername: thus-k.netnode.cc.cd
+  server: 104.21.36.81
+  servername: 4-M16.ChIANG-RaI2036.kdnS.fR
   tls: true
   type: vless
   udp: true
-  uuid: b82330a7-c64a-46a4-b109-e71b63cb26c4
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: thus-k.netnode.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /t.me/daily_free_vpn
+      Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇺🇸US - udptoos.com #2'
-  port: 9443
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-  server: 13.143.137.164
-  servername: plaincanvas.videoclothing.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
 - client-fingerprint: chrome
-  name: 🇯🇵JP - udptoos.com
+  name: '🇨🇦CA - udptoos.com #2'
   network: ws
-  port: 443
-  server: 8.222.84.103
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  port: '443'
+  server: 172.67.206.64
+  servername: 3-M16.ayUTthAYa2032.kdNs.FR
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: cdn8848.776676.xyz
-    path: /member/discount?ed=2560
+      Host: 3-M16.ayUTthAYa2032.kdNs.FR
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  xudp: true
